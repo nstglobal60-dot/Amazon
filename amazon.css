@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head1{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(5, 5, 119);
+  justify-content: space-around;
+  color: wheat;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* responsive Stlyes here */
+@media (min-width: 601px) and (max-width: 900px) {
+  .head1 {
+    background-color: lightgreen;
+  }
+}
+.best{
+  background-color: rgb(114, 97, 129);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom-width: 3px;
+  border-style: solid;
+  border-color: aqua;
+}
+.div2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.home-best-website{
+  color: rgb(27, 203, 226);
+}
+.min-read{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 25px;
+line-height: 35px;
+}
+.amazon-center{
+  color: rgb(10, 10, 131);
+}
+.view-site{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+.span-site{
+  color: rgb(27, 203, 226);
+}
+.side-bar-div{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 252px;
+}
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.f, .in, .x{
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-size: 35px;
+  color: rgb(7, 7, 209);
+}
+.massage, .email, .instagram, .xray, .tiktok{
+  width: 40px;
+}
+.in{
+  padding-bottom: 15px;
+}
+.meddle-div{
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+.middle1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.explore{
+  background-color: black;
+  color: wheat;
+  padding: 5px;
+  border: none;
+  margin-left: 6px;
+}
+.new, .basket, .icereem-ball, .icecreem-image, .icecreem, .icecreem2, .new-image, .icecreem-basket{
+  width: 35px;
+  margin-left: 17px;
+}
+.shop-mother{
+  display: flex;
+  flex-direction: row;
+  margin-left: 87px;
+  background-color: black;
+  width: 950px;
+  color: wheat;
+  padding-bottom: 40px;
+}
+/* responsive styles here*/
+@media (max-width: 700px) {
+  .shop-mother {
+    background-color: lightblue;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .shop-mother {
+    background-color: lightgreen;
+  }
+}
+.explore-prime{
+  display: flex;
+  flex-direction: column;
+}
+.search-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.all-search{
+  padding-left: 40px;
+}
+.search-button{
+  padding-right: 400px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.search-button2{
+  background-color: rgb(245, 245, 13);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 4px;
+  padding-left: 4px;
+  border: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.day{
+  padding-left: 40px;
+  padding-right: 8px;
+  padding-top: 9px;
+}
+.object{
+  position: absolute; bottom: 230px;
+  text-align: center;
+}
+.nrk-div{
+  display: flex;
+  flex-direction: row;
+}
+.rk, .Departments, .Recommended, .todays-deal, .gift, .Registry, .sell, .help{
+  padding: 2px;
+}
+.Departments, .Recommended, .todays-deal, .gift, .Registry, .sell, .help{
+margin-left: 2px;
+}
+.rk{
+  background-color: black;
+  color: wheat;
+  border-color: rgb(8, 8, 190);
+  border-width: 1px;
+  border-style: solid;
+}
+.hello{
+  position: absolute; right: 557px;
+  margin-top: 45px;
+}
+.en{
+  display: flex;
+  flex-direction: row;
+}
+.xr{
+  width: 20px;
+}
+.rk-div{
+  display: flex;
+  flex-direction: row;
+}.femi-sign-in{
+  position: absolute; right: 305px;
+  margin-top: 45px;
+}
+.Try-prime-div{
+  display: flex;
+  flex-direction: row;
+}
+.bold-image{
+  position: absolute; right: -28%;
+  margin-top: 120px;
+  margin-right: 917px;
+  color: red;
+  background-color: green;
+}
+.img2{
+  width: 500px;
+  object-fit: contain;
+  object-position: 10px;
+}
+.img-div{
+  display: flex;
+  flex-direction: row ;
+  position: absolute; right: 24%;
+  margin-top: 650px;
+}
+.imga, .sh, .sho, .shoe1{
+  width: 150px;
+  margin-left: 4px;
+}
+.imgb{
+  width: 150px;
+  margin-left: 4px;
+}
+.menc{
+  width: 150px;
+  margin-left: 4px;
+}
+.shoes-div{
+  display: flex;
+  flex-direction: row ;
+  position: absolute; right: 24%;
+  margin-top: 830px;
+  object-fit: contain;
+}
+.shoe2, .shoe3, .shoe4, .shoe5, .shoe6, .shoe7{
+  width: 150px;
+  margin-left: 4px;
+}
+.beauty-div{
+  display: flex;
+  flex-direction: row ;
+  position: absolute; right: 24%;
+  margin-top: 1005px;
+  object-fit: contain;
+}
+.beauty, .beauty2, .beauty3, .beauty4, .beauty5, .beauty6{ 
+  width: 150px;
+  margin-left: 4px;
+}
+.right-div{
+position: fixed; left: 950px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 95px;
+}
+.samsung-phone, .samsung2, .samsung3, .samsung4{
+  width: 150px;
+}
+
+
+
